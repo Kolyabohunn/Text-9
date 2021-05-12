@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.box{box-shadow: rgba(179, 160, 160, 0.5) 0px 20px 20px 20px;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    width: 1400px;
+    height: 940px;
+    margin: 130 , 130 , 130 130px;
+}
+.text{
+margin: 10%;
+}
+.T:first-letter{
+    text-transform: uppercase;
+    font-size: 74px;
+    float: left;
+    margin-top: -14px;
+    margin-right: 20px;
+}
+.block{
+    line-height: 30px;
+}
+.italic{
+    font-size: 28px;
+    font-family: "Lato",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    letter-spacing: 5px;
+    color: #eaa258;
+    background: #fff;
+    border: 2px solid #eaa258;
+    width: 264px;
+    height: 68px;
+}
+input:hover{
+    background: #eaa258;
+    color: #fff;
+}
+h1{
+    font-family: "Playfair Display";
+}
+.italic::before{
+    content: "\201C";
+}
